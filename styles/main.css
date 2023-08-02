@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1400px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 3rem 0;
+}
+section.bg-color {
+  background-color: #E9E9E9;
+}
+
+.GML-section .carousel-inner .carousel-content {
+  position: relative;
+  width: 100% !important;
+  height: 40rem;
+}
+.GML-section .carousel-inner .carousel-content img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.GML-section .carousel-inner .carousel-content .wrapper {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+}
+.GML-section .carousel-inner .carousel-content .content {
+  max-width: 30rem;
+  position: absolute;
+  bottom: 8rem;
+  right: 1rem;
+}
+.GML-section .carousel-inner .carousel-content .content h3 {
+  position: relative;
+  font-size: 7rem;
+  line-height: 0;
+  font-weight: 800;
+  margin-bottom: 4rem;
+  text-align: left;
+}
+.GML-section .carousel-inner .carousel-content .content h3 span {
+  position: absolute;
+  right: 9rem;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  width: 100%;
+  text-align: right;
+}
+.GML-section .carousel-inner .carousel-content .content p {
+  font-size: 1rem;
+  color: #B3221E;
+  max-width: 12rem;
+  width: 100%;
+}
+.GML-section .carousel-inner .carousel-content .content button {
+  background-color: #ffffff;
+  color: #000000;
+}
+.GML-section .carousel-inner .carousel-content .content button i {
+  color: #B3221E;
+}
+.GML-section .carousel-inner .carousel-content .content button:hover {
+  color: #B3221E;
+}
+
+.page-banner {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-banner .content {
+  margin-top: 3rem;
+  margin-left: 15rem;
+}
+.page-banner .content h3 {
+  position: relative;
+  font-size: 10rem;
+  line-height: 0;
+  font-weight: 800;
+  margin-bottom: 6rem;
+  text-align: left;
+  color: #ffffff;
+}
+.page-banner .content h3 span {
+  position: absolute;
+  right: 13rem;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: italic;
+  width: 100%;
+  text-align: right;
+  color: #000000;
+}
+.page-banner .content p {
+  font-size: 1.3rem;
+  color: #E6A045;
+  max-width: 22rem;
+  width: 100%;
+}
+.page-banner .content p strong {
+  text-transform: uppercase;
+}
+.page-banner .content button {
+  background-color: #ffffff;
+  color: #000000;
+}
+.page-banner .content button i {
+  color: #B3221E;
+}
+.page-banner .content button:hover {
+  color: #B3221E;
+}
+
+.new-GML img {
+  width: 100%;
+}
+.new-GML .content {
+  margin-top: 1rem;
+}
+.new-GML .content h6 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.new-GML .content h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.new-GML .content .button-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.new-GML .content .button-group .read-more-btn {
+  background-color: #0D76BB;
+}
+.new-GML .content .button-group .read-more-btn:hover {
+  background-color: #0b67a3;
+}
+.new-GML .content .button-group .download-btn {
+  background-color: #0c9444;
+}
+.new-GML .content .button-group .download-btn:hover {
+  background-color: #0a7c39;
+}
+
+.GML-list.details-page-GML-list .hidden-line::after {
+  background-color: #E9E9E9;
+}
+.GML-list.details-page-GML-list .card {
+  background: none;
+  margin: 2rem 0;
+}
+.GML-list.details-page-GML-list .card .card-body .card-title {
+  margin-bottom: 0;
+}
+.GML-list .hidden-line {
+  position: relative;
+}
+.GML-list .hidden-line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #ffffff;
+}
+.GML-list .col-md-4, .GML-list .col-md-6, .GML-list .col-sm-12, .GML-list .col-xl-3, .GML-list .col-sm-6 {
+  padding: 0;
+}
+.GML-list .card {
+  padding: 0 1.5rem;
+  border: none;
+  border-radius: 0;
+  border-right: 1px solid gray;
+  margin-bottom: 5rem;
+}
+.GML-list .card .card-body {
+  padding: 0;
+}
+.GML-list .card .card-body .card-title {
+  margin: 1.2rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.GML-list .card .card-body .button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.GML-list .card .card-body .button-group .read-more-btn {
+  background-color: #0D76BB;
+  font-size: 0.7rem;
+}
+.GML-list .card .card-body .button-group .read-more-btn:hover {
+  background-color: #0b67a3;
+}
+.GML-list .card .card-body .button-group .download-btn {
+  background-color: #0c9444;
+  font-size: 0.7rem;
+}
+.GML-list .card .card-body .button-group .download-btn:hover {
+  background-color: #0a7c39;
+}
+
+.GML-details-banner .carousel-inner .carousel-content {
+  position: relative;
+  width: 100% !important;
+  height: 70vh;
+}
+
+.GML-details-content .detail-header h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #B3221E;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.GML-details-content .detail-header h1 {
+  font-weight: 300;
+  max-width: 25rem;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.GML-details-content .detail-header h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+  height: 0.6rem;
+  width: 2.5rem;
+  background-color: #B3221E;
+}
+.GML-details-content .detail-header h1 strong {
+  font-weight: 700;
+}
+.GML-details-content .detail-header .user-details {
+  margin-bottom: 1rem;
+}
+.GML-details-content .detail-header .user-details h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.GML-details-content .detail-header .user-details p {
+  font-size: 0.8rem;
+  max-width: 13rem;
+}
+.GML-details-content .detail-header .button-group {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.GML-details-content .detail-header .button-group .btn {
+  padding: 0.4rem 1.3rem;
+}
+.GML-details-content .detail-header .button-group .read-more-btn {
+  background-color: #0D76BB;
+}
+.GML-details-content .detail-header .button-group .read-more-btn:hover {
+  background-color: #0b67a3;
+}
+.GML-details-content .detail-header .button-group .download-btn {
+  background-color: #0c9444;
+}
+.GML-details-content .detail-header .button-group .download-btn:hover {
+  background-color: #0a7c39;
+}
+.GML-details-content .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+.GML-details-content .user img {
+  height: 8rem;
+  width: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.GML-details-content .user p {
+  width: calc(100% - 10rem);
+  font-size: 1.3rem;
+  color: #B3221E;
+}
+.GML-details-content .description {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #333333;
+}
+
+@media only screen and (max-width: 1000px) {
+  .GML-section .carousel-inner .carousel-content {
+    height: 30rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content {
+    max-width: 30rem;
+    bottom: 6rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 span {
+    right: 7rem;
+    font-size: 1.2rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content p {
+    font-size: 0.9rem;
+    max-width: 10rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content button {
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+  }
+  .page-banner {
+    height: 30rem;
+  }
+  .page-banner .content h3 {
+    font-size: 7rem;
+    margin-bottom: 4rem;
+  }
+  .page-banner .content h3 span {
+    right: 11rem;
+    font-size: 2.5rem;
+  }
+  .page-banner .content p {
+    font-size: 1.1rem;
+    max-width: 20rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .GML-details-content .user {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .GML-details-content .user p {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .GML-section .carousel-inner .carousel-content {
+    height: 25rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content {
+    max-width: 30rem;
+    bottom: 5rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 span {
+    right: 5.5rem;
+    font-size: 1rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .GML-details-content .detail-header .button-group {
+    justify-content: flex-start;
+  }
+  .GML-details-content .detail-header h6 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .GML-details-content .detail-header h1 {
+    font-size: 1.6rem;
+  }
+  .GML-details-content .detail-header .button-group .btn {
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+  }
+  .GML-details-content .user {
+    margin-top: 2rem;
+    gap: 0.6rem;
+  }
+  .GML-details-content .user p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .GML-section .carousel-inner .carousel-content {
+    height: 20rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content {
+    max-width: 30rem;
+    bottom: 5rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 span {
+    right: 5.5rem;
+    font-size: 0.8rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content p {
+    font-size: 0.7rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content button {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
+  }
+  .page-banner {
+    height: 20rem;
+  }
+  .page-banner .content {
+    margin-left: 10rem;
+  }
+  .page-banner .content h3 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .page-banner .content h3 span {
+    right: 11rem;
+    font-size: 1.5rem;
+  }
+  .page-banner .content p {
+    font-size: 0.9rem;
+    max-width: 20rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .GML-section .carousel-inner .carousel-content {
+    height: 20rem;
+  }
+  .GML-section .carousel-inner .carousel-content::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+  }
+  .GML-section .carousel-inner .carousel-content .content {
+    max-width: 30rem;
+    bottom: 5rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content h3 span {
+    right: 5.5rem;
+    font-size: 0.8rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content p {
+    font-size: 0.7rem;
+  }
+  .GML-section .carousel-inner .carousel-content .content button {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .page-banner {
+    height: 16rem;
+  }
+  .page-banner .content {
+    margin-left: 7rem;
+  }
+  .page-banner .content h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .page-banner .content h3 span {
+    right: 8rem;
+    font-size: 1rem;
+  }
+  .page-banner .content p {
+    font-size: 0.8rem;
+    max-width: 15rem;
+  }
+  .new-GML .content h6 {
+    font-size: 1rem;
+  }
+  .new-GML .content h4 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  .new-GML .content .button-group .btn {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=main.css.map */
